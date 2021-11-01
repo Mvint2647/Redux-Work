@@ -7,8 +7,8 @@ import { idbPromise } from "../../utils/helpers";
 import { useDispatch, useSelector } from 'react-redux';
 
 function ProductItem(item) {
-  const state = useDispatch();
-  const dispatch = useSelector((state) => state);
+ const dispatch = useDispatch();
+  const state = useSelector((state) => state);
 
   const {
     image,
